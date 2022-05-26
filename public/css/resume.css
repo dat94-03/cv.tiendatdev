@@ -11,6 +11,29 @@ body {
   color: #34495e;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar:hover {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    #38ada9,
+    transparent
+  );
+  border-radius: 100rem 100rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(#fef2e6, #fa983a, #fef2e6);
+  border-radius: 100rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -168,7 +191,7 @@ img.subheading-icon {
 
 section.resume-section {
   /* padding-top: 5rem ; */
-  padding-bottom: 5rem ;
+  padding-bottom: 5rem;
   max-width: 75rem;
 }
 
