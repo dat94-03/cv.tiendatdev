@@ -37,7 +37,7 @@ body {
 @media (min-width: 992px) {
     body {
         padding-top: 0;
-        padding-left: 17rem;
+        padding-left: 23rem;
     }
 }
 
@@ -70,12 +70,12 @@ h3 {
 }
 
 p.lead {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 
 em.subheading-welcome {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 
@@ -93,6 +93,9 @@ img.subheading-icon {
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
     font-size: 1.5rem;
+}
+div{
+    font-size: 1.3rem;
 }
 
 .social-icons a {
@@ -151,7 +154,7 @@ img.subheading-icon {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        width: 17rem;
+        width: 22rem;
         height: 100vh;
     }
     #sideNav .navbar-brand {
@@ -206,9 +209,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (min-width: 768px) {
-    section.resume-section {
+    /* section.resume-section {
         min-height: 80vh;
-    }
+    } */
     section.resume-section .resume-item .resume-date {
         min-width: 18rem;
     }
@@ -222,11 +225,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: #38ada9 !important;
+    background-color: #7C9D96!important;
 }
 
 .text-primary {
-    color: #079992 !important;
+    color: #7C9D96 !important;
 }
 
 .text-primary:hover {
@@ -234,7 +237,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-    color: #079992;
+    color: #7C9D96;
 }
 
 a:hover,
@@ -317,12 +320,12 @@ a:active {
 /* end show modal zoom image*/
 
 .interests-short-caption p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1px;
 }
 
 .fa-custom-list {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .icon-heart {
